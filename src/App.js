@@ -2,7 +2,7 @@ import './App.css'
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
-import SearchPage from './SearchPage'
+import SearchPage from './pages/SearchPage'
 
 const App = () => (
   <div className="App">

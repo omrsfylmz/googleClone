@@ -8,9 +8,9 @@ import LocalOfferIcon from '@material-ui/icons/LocalOffer'
 import RoomIcon from '@material-ui/icons/Room'
 import MoreVertIcon from '@material-ui/icons/MoreVert'
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown'
-import Search from './components/Search'
-import useGoogleSearch from './useGoogleSearch'
-import { useStateValue } from './StateProvider'
+import Search from '../components/Search'
+import useGoogleSearch from '../hooks/useGoogleSearch'
+import { useStateValue } from '../context/StateProvider'
 
 const SearchPage = () => {
   const [{ term }, dispatch] = useStateValue()

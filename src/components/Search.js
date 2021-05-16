@@ -4,8 +4,8 @@ import SearchIcon from '@material-ui/icons/Search'
 import MicIcon from '@material-ui/icons/Mic'
 import { Button } from '@material-ui/core'
 import { useHistory } from 'react-router-dom'
-import { useStateValue } from '../StateProvider'
-import { actionTypes } from '../reducer'
+import { useStateValue } from '../context/StateProvider'
+import { actionTypes } from '../context/reducer'
 
 const Search = ({ hideButtons = false }) => {
   const [{}, dispatch] = useStateValue()
