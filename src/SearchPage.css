@@ -1,0 +1,88 @@
+.search-pageHeader {
+  width: 100vw;
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+  align-items: flex-start;
+  padding: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.search-pageHeaderBody > .search > .search-input {
+  margin-top: 0;
+  width: unset;
+  margin: unset;
+  max-width: 700px;
+}
+
+.search-pageLogo {
+  object-fit: contain;
+  height: 50px;
+  margin-right: 50px;
+}
+.searchPage-options {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+.searchPage-option {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.searchPage-option a {
+  margin-left: 5px;
+}
+.searchPage-optionsLeft a,
+.searchPage-optionsRight a {
+  text-decoration: none;
+  color: gray;
+}
+.searchPage-optionsRight {
+  margin-left: 80px;
+}
+.searchPage-optionsLeft,
+.searchPage-optionsRight {
+  display: flex;
+}
+
+.searchPage-result {
+  margin: 40px 0;
+}
+
+.searchPage-resultCount {
+  color: #70757a;
+  font-size: 14px;
+}
+
+.searchPage-results {
+  max-width: 650px;
+  margin-top: 20px;
+  margin-left: 240px;
+  margin-bottom: 100px;
+}
+
+.searchPage-resultTitle {
+  text-decoration: none;
+}
+
+.searchPage-resultTitle:hover {
+  text-decoration: underline;
+}
+
+.searchPage-resultTitle > h2 {
+  font-weight: 500;
+}
+
+.searchPage-resultSnippet {
+  margin-top: 10px;
+}
+
+.searchPage_resultImage {
+  object-fit: contain;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
