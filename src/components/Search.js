@@ -37,7 +37,7 @@ const Search = ({ hideButtons = false }) => {
           <Button type="submit" variant="outlined" onClick={search}>
             Google Search
           </Button>
-          <Button variant="outlined"> I m Feeling Lucky</Button>
+          <Button variant="outlined"> I&#x27m Feeling Lucky</Button>
         </div>
       ) : (
         <div className="search-buttons">
@@ -49,7 +49,7 @@ const Search = ({ hideButtons = false }) => {
             Google Search
           </Button>
           <Button className="search-buttonsHidden" variant="outlined">
-            I m Feeling Lucky
+            I&#x27m Feeling Lucky
           </Button>
         </div>
       )}
